@@ -1,0 +1,17 @@
+world: main1
+prefix: "&e&l【&e資源箱系統&e&l】"
+distance: 5
+wait-time: 5
+exp: 10
+chest-types:
+  p:
+    block-above-material: SEA_LANTERN #箱子上面要用什麽方塊
+    item-min-count: 3 #一個箱子有幾個物品？
+    item-max-count: 10
+    items:
+      - name: ANGINHEART
+        type: CORE
+        unidentify-chance: 0.5 #未鑒定的幾率
+        rarity: 1 #稀有度（權重）
+        min-amount: 1 #一個物品，有幾個？
+        max-amount: 5

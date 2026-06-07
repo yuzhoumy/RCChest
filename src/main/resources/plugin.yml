@@ -1,0 +1,8 @@
+name: RCChest
+version: '${version}'
+main: quest.yuzhou.rcchest.RCChest
+api-version: '1.19'
+commands:
+  reloadchestconfig:
+    description: Reload config file of RCChest plugin.
+    usage: /<command>
